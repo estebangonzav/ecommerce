@@ -26,7 +26,11 @@ const AdminPrivateRoute = ({ children }) => {
     };
   }, []);
 
+<<<<<<< Updated upstream
   // INTERCEPTOR PARA RETORNAR A VISTA PRINCIPAL NI ESTA LOGEADO E INTENTA ACCEDER A ALGUNA URL
+=======
+  // INTERCEPTOR PARA RETORNAR A VISTA PRINCIPAL SI ESTA LOGEADO E INTENTA ACCEDER A ALGUNA URL
+>>>>>>> Stashed changes
 
   axios.interceptors.response.use(
     undefined,
